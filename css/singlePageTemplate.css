@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* side nav */
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+}
+
+/* sidenav links */
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: whitesmoke;
+	display: block;
+	transition: 0.3s;
+}
+
+/* change color when mouse over links */
+.sidenav a:hover {
+	color: white;
+	cursor: pointer;
+}
+
+/* position + style close button */
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 35px;
+	margin-left: 50px;
+}
+
+/* style page content */
+#main {
+	transition: margin-left .5s;
+	padding: 20px;
+}
+
+/* change sidenav style on smaller screens */
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+}
+
+/* center name */
+.name {
+	text-align: center;
+}
+
+.open {
+	font-size: 35px;
+	position: absolute;
+	top: 45px;
+	left: 45px;
+	cursor: pointer;
+}
+
+.open:hover {
+	color: white;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+p {
+	padding: 15px;
+	font-size: 20px;
+}
+
+body {
+	background-image: url("../images/ss070.gif");
+	color: whitesmoke;
+}
+
+* {box-sizing:border-box}
+
+/* photo */
+.photo-container {
+	max-width: 900px;
+	position: relative;
+	margin:0 auto;
+}
+
+#below-image {
+	text-align: center;
+	padding: 1px;
+}
