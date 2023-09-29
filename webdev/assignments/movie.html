@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title> Movie Review  </title>
+
+
+<link rel="stylesheet"  href="css/xxxx.css">
+
+<style>
+	body {
+		margin: auto;
+		
+	}
+
+	button {
+		border-radius: 10px;
+		background-color: #EB5E28;
+		border: none;
+		color: #FFFCF2;
+		text-align: center;
+		font-size: 1.1em;
+		padding: 10px;
+		transition: all 0.5s;
+		cursor: pointer;
+		margin: 5px;
+		width: 120px;
+		box-shadow: 5px 5px 4px #252422;
+	}
+
+	button span {
+		cursor: pointer;
+		display: inline-block;
+		position: relative;
+		transition: 0.5s;
+	}
+
+	button span:after {
+		content: '\00bb';
+		position: absolute;
+		opacity: 0;
+		top: 0;
+		right: -20px;
+		transition: 0.5s;
+	}
+
+	button:hover span {
+		padding-right: 25px;
+	}
+
+	button:hover span:after {
+		opacity: 1;
+		right: 0;
+	}
+
+	.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.container {
+		height: 100px;
+		position: relative;
+		width: 100%;
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	#content {
+		margin-left: auto;
+		margin-right: auto;
+		width: 75%;
+		padding-bottom: 20px;
+	}
+
+	footer {
+		background-color: #252422;
+		position: relative;
+		bottom: 0;
+		overflow: hidden;
+		text-align: center;
+	}
+
+	html {
+		background-color: #403D39;
+		color: #FFFCF2;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 1.2em;
+		color: #FFFCF2;
+	}
+
+	#header {
+		background-color: #EB5E28;
+		color: #FFFCF2;
+		text-align: center;
+		font-size: 1.7em;
+		width: 100%;
+		height: 150px;
+		position: relative;
+		top: 0px;
+		box-shadow: 0px 3px 4px #252422;
+		overflow: hidden;
+	}
+
+	h2 {
+		color: #EB5E28;
+		padding-left: 40px;
+		padding-top: 20px;
+		padding-bottom: 5px;
+	}
+
+	img {
+		box-shadow: 5px 5px 4px #252422;
+	}
+</style>
+
+</head>
+<body>
+	<nav id="header">
+		<h1>The Net Movie Review</h1>
+	</nav>
+	<br>
+	<br>
+
+	<img src="./images/movie_cover.jpg" height="500" class="center" alt="Cover for The Net">
+
+	<div class="container">
+		<button onclick="window.location.href='https://www.imdb.com/title/tt0113957/';"><span>IMDB </span></button>
+		<button onclick="window.location.href='https://www.amazon.com/gp/video/detail/amzn1.dv.gti.6aa9f71f-8020-d07d-3990-6c3ba5ef605f';"><span>Amazon </span></button>
+	</div>
+
+	<div id="content">
+
+		<p><b>The Net</b> is a 1995 thriller directed by Irwin Winkler. The movie follows Angela Bennett, a computer programmer whose life gets put into danger after stumbling upon a conspiracy.</p>
+
+		<h2>How realistic is the movie?</h2>
+
+		<p>While there are parts of the movie that stem from reality I would say that a decent amount of stuff has been simplified to fit the format of a movie while there are things in the movie that might not necessarily be possible in the real world but are in the context of the movie.</p>
+
+		<h2>Could something like this happen in real life?</h2>
+
+		<p>Parts of what happen in the film are very real, such as identity theft, if you factor in things like an organization having a backdoor to almost every single government agency and major corporation without anyone knowing is extremely unlikely. I know this as not everyone uses the same exact software and a lot of software used professionally are independantly reviewed to ensure there is no malicious intent, stuff does get through from time to time but everything would have to go perfectly at such a large scale that it is incredibly unlikely.</p>
+	</div>
+
+	<footer>
+		<p> <a href="https://validator.w3.org/check?uri=referer" referrerpolicy="no-referrer-when-downgrade">
+			<img src="images/html5.png" alt="HTML Valid">
+			</a> 
+		</p>
+	</footer>
+		
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
